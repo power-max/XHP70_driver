@@ -540,10 +540,8 @@ Wire Wire Line
 Connection ~ 7200 4800
 Wire Wire Line
 	3300 3100 3300 3350
-Text Label 5800 4850 0    50   ~ 0
+Text Label 5800 4950 0    50   ~ 0
 ADC_IOUT
-Wire Wire Line
-	5550 4850 5800 4850
 Text Label 3750 3200 2    50   ~ 0
 ENABLE
 Text Label 3800 5250 2    50   ~ 0
@@ -589,10 +587,8 @@ Wire Wire Line
 	8600 1900 8600 2800
 Wire Wire Line
 	8600 3150 8850 3150
-Text Label 5800 4950 0    50   ~ 0
+Text Label 5800 4850 0    50   ~ 0
 ADC_VOUT
-Wire Wire Line
-	5550 4950 5800 4950
 Wire Wire Line
 	3800 5350 3950 5350
 Wire Wire Line
@@ -682,4 +678,8 @@ Wire Wire Line
 Connection ~ 3450 5150
 Wire Wire Line
 	3450 4800 3450 4950
+Wire Wire Line
+	5550 4950 5800 4950
+Wire Wire Line
+	5800 4850 5550 4850
 $EndSCHEMATC
